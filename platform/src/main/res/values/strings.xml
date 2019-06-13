@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">platfrom</string>
+    <string name="pull_to_refresh_pull_label">下拉可以刷新</string>
+    <string name="pull_to_refresh_release_label">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">加载中...</string>
+    <string name="pull_to_refresh_more_label">更多...</string>
+    <string name="load_more">更多</string>
+    <string name="load_full">已加载全部</string>
+    <string name="load_empty">暂无数据</string>
+    <string name="load_error">加载数据出错</string>
+
+    <string name="file_normal">常用文件</string>
+    <string name="file_all">全部文件</string>
+    <string name="empty_data">没有数据</string>
+    <string name="not_available">sd卡不可用</string>
+    <string name="already_select">已选择：%s</string>
+    <string name="file_select_res">确定%s</string>
+    <string name="file_select_max">最多选择%d个文件</string>
+
+    <!-- 输入框标题维护区 Start -->
+    <!-- 班级名称标题 -->
+    <string name ="title_class_name">班级名称：</string>
+    <!-- 学员数量标题 -->
+    <string name ="title_student_num">学员数量：</string>
+    <!-- 排课计划标题 -->
+    <string name ="title_arrange_class">排课计划</string>
+    <!-- 上课地点标题 -->
+    <string name ="title_class_address">上课地点：</string>
+    <!-- 上课时间标题 -->
+    <string name ="title_class_time">上课时间</string>
+    <!-- 循环课次 -->
+    <string name ="title_class_loop">循环课次</string>
+    <!-- 课次排课 -->
+    <string name ="title_class_times">课次排课</string>
+    <!-- 上课计划 -->
+    <string name ="title_class_plan">上课计划</string>
+    <!-- 计划名称 -->
+    <string name ="title_plan_name">计划名称：</string>
+    <!-- 输入框标题维护区 End -->
+
+    <!-- 输入框提示词维护区 Start -->
+    <!-- 搜索框提示词 -->
+    <string name ="hint_search">姓名/手机号</string>
+    <!-- 班级名称输入框提示词 -->
+    <string name ="hint_class_name">请输入班级名称</string>
+    <!-- 学员数量输入框提示词 -->
+    <string name ="hint_student_num">请输入学员数量</string>
+    <!-- 上课地点输入框提示词 -->
+    <string name ="hint_class_address">请输入上课地点</string>
+    <!-- 计划名称 -->
+    <string name ="hint_class_plan_name">请输入计划名称</string>
+    <!-- 输入框提示词维护区 End -->
+
+    <!-- 加载提示语 -->
+    <string name="pop_loading">加载中...</string>
+    <!-- 请求后台结果出现逻辑外情况 -->
+    <string name="pop_unknown">请稍后重试</string>
+
+    <string name="pop_err_data">数据异常</string>
+    <string name="pop_err_wrong">系统错误</string>
+    <string name="pop_err_token">TOKEN认证错误</string>
+    <string name="no_network">网络异常，请稍后重试</string>
+    <!-- 提交成功 -->
+    <string name="submission_of_success">提交成功</string>
+
+    <!-- 符号区 Start -->
+    <!-- 左 - 圆括号 -->
+    <string name="symbol_left_parentheses">(</string>
+    <!-- 右 - 圆括号 -->
+    <string name="symbol_right_parentheses">)</string>
+    <!-- 时间区间 - 至 -->
+    <string name="symbol_time_to">至</string>
+    <!-- 符号区 End -->
+
+    <!-- 业务名词区 Start -->
+    <!-- 课次 -->
+    <string name="noun_class_times">课次</string>
+    <!-- 开始日期 -->
+    <string name="noun_start_date">开始日期</string>
+    <!-- 开始时间 -->
+    <string name="noun_start_time">开始时间</string>
+    <!-- 结束时间 -->
+    <string name="noun_end_time">结束时间</string>
+    <!-- 暂无原因 -->
+    <string name="no_reason">暂无原因</string>
+    <!-- 业务名词区 End -->
+
+    <!-- 单位区 Start -->
+    <!-- 课次单位 -->
+    <string name="unit_class_times">次</string>
+    <!-- 单位区 End -->
+
+    <!-- 礼拜日区 Start -->
+    <!-- 周一 -->
+    <string name="week_one">周一</string>
+    <!-- 周二 -->
+    <string name="week_two">周二</string>
+    <!-- 周三 -->
+    <string name="week_three">周三</string>
+    <!-- 周四 -->
+    <string name="week_four">周四</string>
+    <!-- 周五 -->
+    <string name="week_five">周五</string>
+    <!-- 周六 -->
+    <string name="week_six">周六</string>
+    <!-- 周日 -->
+    <string name="week_seven">周日</string>
+    <!-- 礼拜日区 End -->
+</resources>

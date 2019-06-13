@@ -1,0 +1,60 @@
+apply plugin: 'com.android.library'
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    defaultConfig {
+        minSdkVersion rootProject.ext.android.minSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.android.versionCode
+        versionName rootProject.ext.android.versionName
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        ndk rootProject.ext.ndk
+
+        manifestPlaceholders rootProject.ext.manifestPlaceholders
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+    }
+    defaultConfig{
+        multiDexEnabled true
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation rootProject.ext.dependencies["appcompat-v7"]
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    api rootProject.ext.dependencies["okhttp"]
+    api rootProject.ext.dependencies["utilcode"]
+    api rootProject.ext.dependencies["qmui"]
+    api rootProject.ext.dependencies["wup"]
+    api rootProject.ext.dependencies["mid"]
+    api rootProject.ext.dependencies["design"]
+
+    api rootProject.ext.dependencies["picture_library"]
+    api rootProject.ext.dependencies["recyclerview"]
+    api rootProject.ext.dependencies["easypermissions"]
+    api rootProject.ext.dependencies["pinyin4j"]
+//    api rootProject.ext.dependencies["zxing"]
+    api rootProject.ext.dependencies["fastjson"]
+    //https://github.com/yuxihai/ImmersionBar
+    api files('libs/barlibrary-2.3.0.jar')
+//    implementation files('libs/pushservice-6.1.1.21.jar')
+    api 'com.android.support:multidex:1.0.0'
+    api 'me.imid.swipebacklayout.lib:library:1.0.0'
+}

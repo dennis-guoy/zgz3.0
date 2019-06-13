@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <!--主色调 -->
+    <color name="dominant">#17AD66</color>
+    <!--主色调 -->
+    <color name="bg_dongtai">#EAEFEB</color>
+    <!--主色调 -->
+    <color name="bg_dominant">#378A38</color>
+    <!--主色调 -->
+    <color name="light_green">#E1FEE2</color>
+    <!--主色调 -->
+    <color name="bottom_tab_green">#78DA4E</color>
+
+    <!--1级字体 - 深灰色 -->
+    <color name="font_1">#5A5A5A</color>
+    <!--2级字体 - 浅灰色 -->
+    <color name="font_2">#A0A0A0</color>
+    <!--字体白色 -->
+    <color name="font_white">#FFFFFF</color>
+    <!--字体红色 -->
+    <color name="font_red">#FF0000</color>
+    <!--字体橘黄 -->
+    <color name="font_yellow">#FF9900</color>
+
+    <!--底色和间隔线颜色 -->
+    <color name="bg_line">#F2F2F2</color>
+    <!--底色和间隔线白色 -->
+    <color name="bg_line_white">#FFFFFF</color>
+
+    <!--边线主色 -->
+    <color name="border_main">#17AD66</color>
+    <!--边线红色 -->
+    <color name="border_red">#FF0000</color>
+    <!--边线橘黄 -->
+    <color name="border_yellow">#FF9900</color>
+
+
+
+    <!-- 其它用途 -->
+    <color name="none_color">#00000000</color>
+    <!-- LIST BORDER COLOR -->
+
+    <!-- ITEM BACKGROUND COLOR - STATE - DEFAULT -->
+
+    <!-- ITEM BACKGROUND COLOR - STATE - PRESSED -->
+
+    <!-- ITEM TEXT COLORS - STATES - PRESSED AND DEFAULT -->
+    <color name="text_color_default">#000000</color>
+    <!--  -->
+    <color name="groupname_select">#1C86EE</color>
+    <color name="red">#fd8d8d</color>
+    <color name="blue">#8d9dfd</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+
+    <color name="transparent_background">#50000033</color>
+    <color name="listitem_black">#ff000000</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="help_view">#ff404040</color>
+    <color name="result_view">#b0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+
+    <!-- huanxin chats -->
+    <color name="huanxin_btn_white_pressed">#b5b5b6</color>
+    <color name="huanxin_gray_normal">#666667</color>
+    <!-- 照片选择用的颜色值-->
+    <color name="action_text_color_normal" >#cfcfcf</color>
+    <color name="action_text_color_pressed" >#353535</color>
+    <color name="colorebebeb">#ebebeb</color>
+    <color name="colorDDDDDD">#dddddd</color>
+    <color name="color000000">#000000</color>
+    <color name="colorPrimary">#FB7E00</color>
+    <color name="colorPrimaryDark">#FB7E00</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="file_bottom_line">#ECECEC</color>
+    <color name="file_picker_title">#4A4A4A</color>
+    <color name="file_picker_des">#86848B</color>
+    <color name="statusbar_bg">#2ab2e2</color>
+
+</resources>
